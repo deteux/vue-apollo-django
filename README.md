@@ -10,9 +10,9 @@ sh run.sh dev
 
 ## Install npm packages and run the serve command in another tab.
 
-## In the frontend folder:
+## To get frontend running:
 
-## Project setup
+### Project setup
 
 ```
 npm install
