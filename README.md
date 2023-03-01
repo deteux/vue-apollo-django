@@ -1,6 +1,6 @@
 # vue-apollo-django
 
-## This portfolio web app uses Django, Vue.js, Tailwindcss, and GraphQL
+## A barebones portfolio web app which uses Django, Vue.js, Tailwindcss, and GraphQL.
 
 ## In the root folder where `manage.py` exists:
 
