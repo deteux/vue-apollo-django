@@ -1,4 +1,4 @@
-# vue-apollo-django
+# vue + apollo + django
 
 ## A barebones portfolio web app which uses Django, Vue.js, Tailwindcss, and GraphQL.
 
