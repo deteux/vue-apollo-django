@@ -2,18 +2,17 @@
 
 ## A barebones portfolio web app which uses Django, Vue.js, Tailwindcss, and GraphQL.
 
-## In the root folder where `manage.py` exists:
+# Configuration steps
+## Development mode
+
+### Go to the root folder where `manage.py` exists:
 
 ```
-sh run.sh dev
+python manage.py runserver --settings=backend.settings.dev
 ```
 
-## Install npm packages and run the serve command in another tab.
-
-## To get frontend running:
-
-### Project setup
-
+### Install npm packages and run the serve command in another tab.
+### Frontend setup
 ```
 npm install
 ```
@@ -24,9 +23,18 @@ npm install
 npm run serve
 ```
 
+## Production mode
+### To compile your static files and test the production environment, run these after every `npm run build`:
+
+```
+python manage.py collectstatic
+python manage.py makemigrations    
+python manage.py migrate
+python manage.py runserver --settings=backend.settings.prod
+```
+### The prod settings will use postgresql when configured properly in backend.settings.prod. You'll need to setup the database and then provide the credentials in the file.
 ### The application will run on `http://localhost:8000` and npm will be served at `http://localhost:8080`. GraphQL will be available at `http://localhost:8000/graphql` and django-admin at `http://localhost:8080/admin`.
 
-### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 

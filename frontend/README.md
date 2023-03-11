@@ -10,7 +10,7 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies for production, django will collect these static files for use in prod
 ```
 npm run build
 ```

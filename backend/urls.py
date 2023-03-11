@@ -30,11 +30,9 @@ favicon_view = RedirectView.as_view(url=os.path.join(settings.STATIC_URL,'favico
 urlpatterns = [
     path('', vue_app.home),
     path('blog/', vue_app.home),
-    path('photography/', vue_app.home),
-
     path('admin/', admin.site.urls),
     path('favicon.ico', favicon_view),
-    path("graphql", csrf_exempt(GraphQLView.as_view(graphiql=True))),
+    path("graphql/", csrf_exempt(GraphQLView.as_view(graphiql=True))),
     re_path(r'^static/(?P<path>.*)$', serve,
         {'document_root': settings.STATIC_ROOT}),
     re_path(r'^dmedia/(?P<path>.*)$', serve,

@@ -1,0 +1,244 @@
+{
+  "status": "done",
+  "assets": {
+    "index.html": {
+      "name": "index.html",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/index.html",
+      "publicPath": "http://localhost:8080/index.html"
+    },
+    "js/chunk-vendors.js": {
+      "name": "js/chunk-vendors.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/js/chunk-vendors.js",
+      "publicPath": "http://localhost:8080/js/chunk-vendors.js"
+    },
+    "js/main.js": {
+      "name": "js/main.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/js/main.js",
+      "publicPath": "http://localhost:8080/js/main.js"
+    },
+    "js/node_modules_graphql-tag_lib_index_js.js": {
+      "name": "js/node_modules_graphql-tag_lib_index_js.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/js/node_modules_graphql-tag_lib_index_js.js",
+      "publicPath": "http://localhost:8080/js/node_modules_graphql-tag_lib_index_js.js"
+    },
+    "js/src_views_AboutView_vue.js": {
+      "name": "js/src_views_AboutView_vue.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/js/src_views_AboutView_vue.js",
+      "publicPath": "http://localhost:8080/js/src_views_AboutView_vue.js"
+    },
+    "js/src_views_BlogView_vue.js": {
+      "name": "js/src_views_BlogView_vue.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/js/src_views_BlogView_vue.js",
+      "publicPath": "http://localhost:8080/js/src_views_BlogView_vue.js"
+    },
+    "js/src_views_ContactView_vue.js": {
+      "name": "js/src_views_ContactView_vue.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/js/src_views_ContactView_vue.js",
+      "publicPath": "http://localhost:8080/js/src_views_ContactView_vue.js"
+    },
+    "js/src_views_HomeView_vue.js": {
+      "name": "js/src_views_HomeView_vue.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/js/src_views_HomeView_vue.js",
+      "publicPath": "http://localhost:8080/js/src_views_HomeView_vue.js"
+    },
+    "js/src_views_PhotographyView_vue.js": {
+      "name": "js/src_views_PhotographyView_vue.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/js/src_views_PhotographyView_vue.js",
+      "publicPath": "http://localhost:8080/js/src_views_PhotographyView_vue.js"
+    },
+    "js/src_views_PostView_vue.js": {
+      "name": "js/src_views_PostView_vue.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/js/src_views_PostView_vue.js",
+      "publicPath": "http://localhost:8080/js/src_views_PostView_vue.js"
+    },
+    "main.1921edc535a38e4e.hot-update.js": {
+      "name": "main.1921edc535a38e4e.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.1921edc535a38e4e.hot-update.js",
+      "publicPath": "http://localhost:8080/main.1921edc535a38e4e.hot-update.js"
+    },
+    "main.1921edc535a38e4e.hot-update.json": {
+      "name": "main.1921edc535a38e4e.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.1921edc535a38e4e.hot-update.json",
+      "publicPath": "http://localhost:8080/main.1921edc535a38e4e.hot-update.json"
+    },
+    "main.212e1f99e1004639.hot-update.js": {
+      "name": "main.212e1f99e1004639.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.212e1f99e1004639.hot-update.js",
+      "publicPath": "http://localhost:8080/main.212e1f99e1004639.hot-update.js"
+    },
+    "main.212e1f99e1004639.hot-update.json": {
+      "name": "main.212e1f99e1004639.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.212e1f99e1004639.hot-update.json",
+      "publicPath": "http://localhost:8080/main.212e1f99e1004639.hot-update.json"
+    },
+    "main.30e8f8d7e7474132.hot-update.js": {
+      "name": "main.30e8f8d7e7474132.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.30e8f8d7e7474132.hot-update.js",
+      "publicPath": "http://localhost:8080/main.30e8f8d7e7474132.hot-update.js"
+    },
+    "main.30e8f8d7e7474132.hot-update.json": {
+      "name": "main.30e8f8d7e7474132.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.30e8f8d7e7474132.hot-update.json",
+      "publicPath": "http://localhost:8080/main.30e8f8d7e7474132.hot-update.json"
+    },
+    "main.3a1e10e4dd39b4b2.hot-update.js": {
+      "name": "main.3a1e10e4dd39b4b2.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.3a1e10e4dd39b4b2.hot-update.js",
+      "publicPath": "http://localhost:8080/main.3a1e10e4dd39b4b2.hot-update.js"
+    },
+    "main.3a1e10e4dd39b4b2.hot-update.json": {
+      "name": "main.3a1e10e4dd39b4b2.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.3a1e10e4dd39b4b2.hot-update.json",
+      "publicPath": "http://localhost:8080/main.3a1e10e4dd39b4b2.hot-update.json"
+    },
+    "main.3c724a4384293ca1.hot-update.js": {
+      "name": "main.3c724a4384293ca1.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.3c724a4384293ca1.hot-update.js",
+      "publicPath": "http://localhost:8080/main.3c724a4384293ca1.hot-update.js"
+    },
+    "main.3c724a4384293ca1.hot-update.json": {
+      "name": "main.3c724a4384293ca1.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.3c724a4384293ca1.hot-update.json",
+      "publicPath": "http://localhost:8080/main.3c724a4384293ca1.hot-update.json"
+    },
+    "main.3eb930d15a248c40.hot-update.js": {
+      "name": "main.3eb930d15a248c40.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.3eb930d15a248c40.hot-update.js",
+      "publicPath": "http://localhost:8080/main.3eb930d15a248c40.hot-update.js"
+    },
+    "main.3eb930d15a248c40.hot-update.json": {
+      "name": "main.3eb930d15a248c40.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.3eb930d15a248c40.hot-update.json",
+      "publicPath": "http://localhost:8080/main.3eb930d15a248c40.hot-update.json"
+    },
+    "main.47fdaa18e1a0c5a5.hot-update.js": {
+      "name": "main.47fdaa18e1a0c5a5.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.47fdaa18e1a0c5a5.hot-update.js",
+      "publicPath": "http://localhost:8080/main.47fdaa18e1a0c5a5.hot-update.js"
+    },
+    "main.47fdaa18e1a0c5a5.hot-update.json": {
+      "name": "main.47fdaa18e1a0c5a5.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.47fdaa18e1a0c5a5.hot-update.json",
+      "publicPath": "http://localhost:8080/main.47fdaa18e1a0c5a5.hot-update.json"
+    },
+    "main.48ecdc04ef2ad707.hot-update.js": {
+      "name": "main.48ecdc04ef2ad707.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.48ecdc04ef2ad707.hot-update.js",
+      "publicPath": "http://localhost:8080/main.48ecdc04ef2ad707.hot-update.js"
+    },
+    "main.48ecdc04ef2ad707.hot-update.json": {
+      "name": "main.48ecdc04ef2ad707.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.48ecdc04ef2ad707.hot-update.json",
+      "publicPath": "http://localhost:8080/main.48ecdc04ef2ad707.hot-update.json"
+    },
+    "main.4aaadf2fe7b0c129.hot-update.js": {
+      "name": "main.4aaadf2fe7b0c129.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.4aaadf2fe7b0c129.hot-update.js",
+      "publicPath": "http://localhost:8080/main.4aaadf2fe7b0c129.hot-update.js"
+    },
+    "main.4aaadf2fe7b0c129.hot-update.json": {
+      "name": "main.4aaadf2fe7b0c129.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.4aaadf2fe7b0c129.hot-update.json",
+      "publicPath": "http://localhost:8080/main.4aaadf2fe7b0c129.hot-update.json"
+    },
+    "main.53f92440aad32108.hot-update.js": {
+      "name": "main.53f92440aad32108.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.53f92440aad32108.hot-update.js",
+      "publicPath": "http://localhost:8080/main.53f92440aad32108.hot-update.js"
+    },
+    "main.53f92440aad32108.hot-update.json": {
+      "name": "main.53f92440aad32108.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.53f92440aad32108.hot-update.json",
+      "publicPath": "http://localhost:8080/main.53f92440aad32108.hot-update.json"
+    },
+    "main.5df10443d5a30273.hot-update.js": {
+      "name": "main.5df10443d5a30273.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.5df10443d5a30273.hot-update.js",
+      "publicPath": "http://localhost:8080/main.5df10443d5a30273.hot-update.js"
+    },
+    "main.5df10443d5a30273.hot-update.json": {
+      "name": "main.5df10443d5a30273.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.5df10443d5a30273.hot-update.json",
+      "publicPath": "http://localhost:8080/main.5df10443d5a30273.hot-update.json"
+    },
+    "main.634ae72cbf6b762c.hot-update.js": {
+      "name": "main.634ae72cbf6b762c.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.634ae72cbf6b762c.hot-update.js",
+      "publicPath": "http://localhost:8080/main.634ae72cbf6b762c.hot-update.js"
+    },
+    "main.634ae72cbf6b762c.hot-update.json": {
+      "name": "main.634ae72cbf6b762c.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.634ae72cbf6b762c.hot-update.json",
+      "publicPath": "http://localhost:8080/main.634ae72cbf6b762c.hot-update.json"
+    },
+    "main.81605dcd2ac7b9b7.hot-update.js": {
+      "name": "main.81605dcd2ac7b9b7.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.81605dcd2ac7b9b7.hot-update.js",
+      "publicPath": "http://localhost:8080/main.81605dcd2ac7b9b7.hot-update.js"
+    },
+    "main.81605dcd2ac7b9b7.hot-update.json": {
+      "name": "main.81605dcd2ac7b9b7.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.81605dcd2ac7b9b7.hot-update.json",
+      "publicPath": "http://localhost:8080/main.81605dcd2ac7b9b7.hot-update.json"
+    },
+    "main.b008243751154111.hot-update.js": {
+      "name": "main.b008243751154111.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.b008243751154111.hot-update.js",
+      "publicPath": "http://localhost:8080/main.b008243751154111.hot-update.js"
+    },
+    "main.b008243751154111.hot-update.json": {
+      "name": "main.b008243751154111.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.b008243751154111.hot-update.json",
+      "publicPath": "http://localhost:8080/main.b008243751154111.hot-update.json"
+    },
+    "main.b3d64086f603ad3d.hot-update.js": {
+      "name": "main.b3d64086f603ad3d.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.b3d64086f603ad3d.hot-update.js",
+      "publicPath": "http://localhost:8080/main.b3d64086f603ad3d.hot-update.js"
+    },
+    "main.b3d64086f603ad3d.hot-update.json": {
+      "name": "main.b3d64086f603ad3d.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.b3d64086f603ad3d.hot-update.json",
+      "publicPath": "http://localhost:8080/main.b3d64086f603ad3d.hot-update.json"
+    },
+    "main.d4da44b80be4196a.hot-update.js": {
+      "name": "main.d4da44b80be4196a.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.d4da44b80be4196a.hot-update.js",
+      "publicPath": "http://localhost:8080/main.d4da44b80be4196a.hot-update.js"
+    },
+    "main.d4da44b80be4196a.hot-update.json": {
+      "name": "main.d4da44b80be4196a.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.d4da44b80be4196a.hot-update.json",
+      "publicPath": "http://localhost:8080/main.d4da44b80be4196a.hot-update.json"
+    },
+    "main.d5306a63e418a63e.hot-update.js": {
+      "name": "main.d5306a63e418a63e.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.d5306a63e418a63e.hot-update.js",
+      "publicPath": "http://localhost:8080/main.d5306a63e418a63e.hot-update.js"
+    },
+    "main.d5306a63e418a63e.hot-update.json": {
+      "name": "main.d5306a63e418a63e.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.d5306a63e418a63e.hot-update.json",
+      "publicPath": "http://localhost:8080/main.d5306a63e418a63e.hot-update.json"
+    },
+    "main.e26acf5de0b0add1.hot-update.js": {
+      "name": "main.e26acf5de0b0add1.hot-update.js",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.e26acf5de0b0add1.hot-update.js",
+      "publicPath": "http://localhost:8080/main.e26acf5de0b0add1.hot-update.js"
+    },
+    "main.e26acf5de0b0add1.hot-update.json": {
+      "name": "main.e26acf5de0b0add1.hot-update.json",
+      "path": "/Users/rahila/Development/vue-apollo-django/frontend/dist/main.e26acf5de0b0add1.hot-update.json",
+      "publicPath": "http://localhost:8080/main.e26acf5de0b0add1.hot-update.json"
+    }
+  },
+  "chunks": {
+    "main": [
+      "js/chunk-vendors.js",
+      "js/main.js"
+    ]
+  },
+  "publicPath": "http://localhost:8080/",
+  "error": "ModuleNotFoundError",
+  "message": "Module not found: Error: [CaseSensitivePathsPlugin] `/Users/rahila/Development/vue-apollo-django/frontend/src/views/contactView.vue` does not match the corresponding path on disk `ContactView.vue`."
+}

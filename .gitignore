@@ -1,0 +1,13 @@
+# Vue
+frontend/node_modules
+
+# Django 
+portfolio/migrations
+db.sqlite3
+*.log
+*.pot
+*.pyc
+__pycache__
+mediafiles
+
+.DS_Store

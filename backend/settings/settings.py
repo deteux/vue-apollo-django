@@ -68,7 +68,7 @@ ROOT_URLCONF = 'backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [            
+        'DIRS': [
             os.path.join(APP_DIR, 'templates'),
         ],
         'APP_DIRS': True,

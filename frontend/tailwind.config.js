@@ -2,35 +2,91 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx,jpg}",
+    "../portfolio/templates/**/*.html",
+    "./src/**/*.{vue,html,js,ts,jsx,tsx}",
+    "./static/**/*.{vue,html,js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      barlow: ["Barlow", "sans-serif"],
+    },
     extend: {
+      fontFamily: {
+        body: [
+          "Inter",
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+          "system-ui",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "Noto Sans",
+          "sans-serif",
+          "Apple Color Emoji",
+          "Segoe UI Emoji",
+          "Segoe UI Symbol",
+          "Noto Color Emoji",
+        ],
+        sans: [
+          "Inter",
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+          "system-ui",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "Noto Sans",
+          "sans-serif",
+          "Apple Color Emoji",
+          "Segoe UI Emoji",
+          "Segoe UI Symbol",
+          "Noto Color Emoji",
+        ],
+      },
       colors: {
-        lightbg:'#E0E0E0',
-        darkbg:'#0F121A',
-        primary: '#E01A4F',
-        secondary: {
-          1: '#A8631E',
-          2: '#34210E',
-          3: '#482A0E',
-          4: '#FF9B3B',
-          5: '#FF9128',
+        lightbg: "#E0E0E0",
+        darkbg: "#0F121A",
+        primary: "#E01A4F",
+        postprimary: {
+          50: "#eff6ff",
+          100: "#dbeafe",
+          200: "#bfdbfe",
+          300: "#93c5fd",
+          400: "#60a5fa",
+          500: "#3b82f6",
+          600: "#2563eb",
+          700: "#1d4ed8",
+          800: "#1e40af",
+          900: "#1e3a8a",
         },
-        retro:{
+        link: "#FFFF00",
+        secondary: {
+          1: "#A8631E",
+          2: "#34210E",
+          3: "#482A0E",
+          4: "#FF9B3B",
+          5: "#FF9128",
+        },
+        brightteal: "#2ed7c8",
+        gunmetal: "#292F36",
+        night: "#0E0F0F",
+        lightred: "#FF6B6B",
+        dogwoodrose: "#D90368",
+        retro: {
           grey: "#584948",
           burgundy: "#582221",
           red: "#A11713",
           blush: "#FF8481",
         },
-        dark:{
-          bg:"#"
-        }
-      },
-      fontFamily: {
-        'barlow': ['Barlow', 'sans-serif']
+        dark: {
+          bg: "#",
+        },
       },
     },
   },
   plugins: [],
-}
+};

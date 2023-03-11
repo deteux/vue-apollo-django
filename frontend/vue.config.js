@@ -1,13 +1,15 @@
+
 var BundleTracker = require("webpack-bundle-tracker");
 var WriteFilePlugin = require("write-file-webpack-plugin");
-
 
 module.exports = {
   publicPath:
     process.env.NODE_ENV === "production"
-      ? process.env.DEPLOYMENT_PATH
-      : "http://localhost:8080/",
-  outputDir: "dist",
+      ? "/static/"
+      : "http://127.0.0.1:8080",
+
+  outputDir: "./dist/",
+
   transpileDependencies: true,
   devServer: {
     headers: {
@@ -19,10 +21,12 @@ module.exports = {
     },
   },
   chainWebpack: (config) => {
-    config.optimization.splitChunks(false);
+    // config.optimization.splitChunks(false);
+    config.module.rule("vue").use("vue-loader");
   },
 
   configureWebpack: {
+    entry: "./src/main.js",
     output: {
       filename: "js/[name].js",
       chunkFilename: "js/[name].js",
@@ -35,7 +39,7 @@ module.exports = {
             {
               loader: "file-loader",
               options: {
-                name: "/assets/[name].[ext]",
+                name: "/img/[name].[ext]",
               },
             },
           ],
@@ -43,6 +47,7 @@ module.exports = {
       ],
     },
     plugins: [
+      // new VueLoaderPlugin(),
       new WriteFilePlugin(),
       process.env.NODE_ENV === "production"
         ? new BundleTracker({

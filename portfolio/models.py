@@ -55,19 +55,6 @@ class Category(models.Model):
         return self.name
 
 
-# # Tag model
-# class Tag(models.Model):
-#     name = models.CharField(max_length=200)
-#     slug = models.SlugField()
-#     description = models.TextField()
-
-#     class Meta:
-#         verbose_name = 'tag'
-#         verbose_name_plural = '4. Tags'
-
-#     def __str__(self):
-#         return self.name
-
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.PROTECT)
     website = models.URLField(blank=True, null=True)
