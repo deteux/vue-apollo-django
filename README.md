@@ -41,3 +41,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 See [Build a Blog Using Django, Vue, and GraphQL](https://realpython.com/python-django-blog/).
 
 Thanks to [Photography portfolio w/Tailwind by Nikki Peel](https://codepen.io/nikki-peel/pen/zYKBzzg).
+
+### Note
+Not all the vue components are 100% built. This is just a sample project with functional Django, Vue, GraphQL, and Tailwindcss.
